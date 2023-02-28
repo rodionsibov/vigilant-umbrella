@@ -1,5 +1,7 @@
 # AngularTourOfHeroes
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/06779c4a-7427-4018-a6cd-3ca8de451674/deploy-status)](https://app.netlify.com/sites/tranquil-sunburst-1c7dc8/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
 ## Development server
