@@ -1,7 +1,9 @@
 <h1>{{ title }}</h1>
 <nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard" [ngStyle]="{ 'margin-right': '1rem' }"
+    >Dashboard</a
+  >
+  <a routerLink="/heroes" [ngStyle]="{ 'margin-right': '1rem' }">Heroes</a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
