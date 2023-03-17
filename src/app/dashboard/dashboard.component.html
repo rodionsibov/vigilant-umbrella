@@ -1,6 +1,10 @@
 <h2>Top Heroes</h2>
 <div>
-  <a *ngFor="let hero of heroes" [ngStyle]="{ 'margin-right': '1rem' }">
+  <a
+    *ngFor="let hero of heroes"
+    [ngStyle]="{ 'margin-right': '1rem' }"
+    routerLink="/detail/{{ hero.id }}"
+  >
     {{ hero.name }}
   </a>
 </div>
