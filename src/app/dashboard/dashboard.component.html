@@ -1,6 +1,6 @@
 <h2>Top Heroes</h2>
 <div>
-  <a *ngFor="let hero of heroes">
-    {{hero.name}}
+  <a *ngFor="let hero of heroes" [ngStyle]="{ 'margin-right': '1rem' }">
+    {{ hero.name }}
   </a>
 </div>
